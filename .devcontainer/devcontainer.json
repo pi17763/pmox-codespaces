@@ -2,5 +2,6 @@
     "image": "makedie/proxmox_ve:8.0.4",
     "settings": {
         "forwardPorts": [8006]
-    }
+    },
+    "postCreateCommand": "hostname pve"
 }
